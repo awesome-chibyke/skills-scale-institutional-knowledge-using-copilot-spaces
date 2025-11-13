@@ -24,3 +24,24 @@ Quality assurance is integrated into the workflow through automated and manual p
 
 ## How to contribute
 To propose edits or add new process content, use the repository issue template: .github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml. Select the process document to update (or choose '<new document>' for a new file), provide a summary of the change, the rationale, and any suggested content. Prefer adding new content under docs/ (or .copilot/ if you want it to be used as context for Copilot Spaces). When in doubt, open an issue and discuss the change with the PM and PdM for the project.
+
+# Project Process Documentation (docs/)
+
+Purpose
+This folder contains OctoAcme project management process documentation, including roles, planning, execution, release checklists, and risk escalation guidance.
+
+Where to look
+- Roles & Personas: docs/octoacme-roles-and-personas.md
+- Planning: docs/octoacme-project-planning.md
+- Execution & Tracking: docs/octoacme-execution-and-tracking.md
+- Checklists: docs/checklists/
+
+How to propose changes
+- Open an issue describing the change you want to make (use the process doc template if available).
+- Submit a pull request that modifies files under docs/ only.
+- If a CONTRIBUTING.md exists in the repository, follow those contribution guidelines: https://github.com/awesome-chibyke/skills-scale-institutional-knowledge-using-copilot-spaces/blob/main/CONTRIBUTING.md (if present).
+- Request reviews from relevant owners (PM, QA Lead, Engineering Lead) when proposing process changes.
+
+Notes
+- Keep entries short and actionable.
+- Link to other docs and checklists wherever a process step references a hand-off or artifact.
