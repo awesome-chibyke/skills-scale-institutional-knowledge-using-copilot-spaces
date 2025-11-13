@@ -22,5 +22,38 @@ Quality assurance is integrated into the workflow through automated and manual p
 - docs/octoacme-retrospective-and-continuous-improvement.md
 - docs/octoacme-roles-and-personas.md
 
-## How to contribute
-To propose edits or add new process content, use the repository issue template: .github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml. Select the process document to update (or choose '<new document>' for a new file), provide a summary of the change, the rationale, and any suggested content. Prefer adding new content under docs/ (or .copilot/ if you want it to be used as context for Copilot Spaces). When in doubt, open an issue and discuss the change with the PM and PdM for the project.
+### Checklists
+- docs/checklists/release-checklist.md
+- docs/checklists/risk-escalation-checklist.md
+
+## Where to Find Process Documentation
+
+All OctoAcme project management process documentation lives in the `docs/` folder of this repository. This includes:
+
+- **Core Process Docs:** Project initiation, planning, execution, release, and retrospective guides
+- **Roles & Personas:** Definitions of team roles, responsibilities, and interaction patterns
+- **Checklists:** Step-by-step guides for releases and risk escalation (located in `docs/checklists/`)
+- **Communication Templates:** Guidelines for stakeholder updates and status reporting
+
+Browse the file list below or use your IDE's file explorer to locate specific documents.
+
+## How to Propose Changes
+
+To propose edits or add new process content:
+
+1. **Use the Issue Template:** Open an issue using `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`
+2. **Select the Document:** Choose the process document to update, or select `<new document>` for a new file
+3. **Describe the Change:** Provide a summary of the change, the rationale, and any suggested content
+4. **Review & Approval:** Changes will be reviewed by the PM and Product Manager before merging
+5. **Location Guidelines:** 
+   - Add new content under `docs/` for public process documentation
+   - Use `.copilot/` if you want the content to be used as context for Copilot Spaces
+   - When in doubt, open an issue and discuss with the PM and PdM
+
+**Best Practices:**
+- Keep changes focused and incremental
+- Include examples or templates where helpful
+- Link related documents to maintain documentation consistency
+- Test checklists and templates before proposing them
+
+If you have a CONTRIBUTING.md file in the root of the repository, please refer to it for additional contribution guidelines and code of conduct.
